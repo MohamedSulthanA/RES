@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOC</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        #home,
+        #menu,
+        #about,
+        #contact {
+            background-color: #ffd699;
+            margin: 1em;
+            padding: 1em;
+            border: 5px solid black;
+            border-radius: 8px;
+            background-size: cover;
+            min-height: 300px; /* Set a minimum height for sections */
+        }
+
+        #home {
+            text-align: center;
+        }
+
+        .cakes,
+        .cake{
+            margin: 1em;
+            padding: 1em;
+            border: 5px solid black;
+            border-radius: 8px;
+            background-color: #ffd699;
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .cakes:hover {
+            background-image: url(https://www.gujaratgifts.com/media/catalog/product/cache/1/image/1200x/040ec09b1e35df139433887a97daa66f/c/i/cifcchkc01.jpg);
+        }
+
+        .cake:hover{
+            background-image: url(https://img.cake24x7.com/writable/apps/cake24x7/ProductGallery/5757/Everything-Is-Chocolate-Cake.jpg);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.8em;
+        }
+
+        /* Media Queries for Mobile View */
+        @media only screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.5em 0;
+            }
+
+            section {
+                padding: 1em;
+            }
+
+            #home,
+            #menu,
+            #about,
+            #contact {
+                margin: 0;
+            }
+
+            .cakes,
+            .cake {
+                padding: 0.5em;
+            }
+
+            header {
+                font-size: 1.2em;
+            }
+
+            footer {
+                font-size: 0.7em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>VOICE OF CAKES</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to our Cake Shop!</h2>
+        <p>Delicious homemade cakes made just for you.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Cake Menu</h2>
+        <div class="cake">
+            <h2>Chocolate Cake</h2>
+            <p>Experience the rich and goodness of our classic chocolate cake.</p>
+            <p>Price: 899 Only</p>
+        </div>
+        <div class="cakes">
+            <h2>Vanilla Cake</h2>
+            <p>Experience the simplicity and elegance of our moist vanilla cake.</p>
+            <p>Price: 699 Only</p>
+        </div>
+        <!-- Add more cakes as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about baking delicious cakes with love and care. Each cake is made from high-quality ingredients to ensure a delightful experience for our customers.we are grateful for the support of our loyal customers. It is your trust and appreciation that inspire us to continue with love and dedication.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone no: 6379489758</p>
+        <p>Address: Plot no.87 Sharmila Nagar, Kakuppam, Villupuram</p>
+        <h3>Order Now...</h3>
+    </section>
+    <footer>voiceofcakes.com</footer>
+</body>
+
+</html>
